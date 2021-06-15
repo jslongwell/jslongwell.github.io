@@ -1,0 +1,85 @@
+#page-container {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#page-header {
+    background-color: #333333;
+    color: #cccccc;
+    margin: 0;
+    padding: 10px 20px;
+}
+
+#page-header h1 {
+    font-size: 200%;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+#page-header h2 {
+    font-size: 75%;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+
+#page-nav {
+    background-color: #999999;
+    color: #cccccc;
+    padding: 10px;
+    margin: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 125%;
+}
+
+#page-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#page-nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#page-nav ul li:hover {
+    background-color: #cccccc;
+}
+
+#page-nav ul li a:hover {
+    color: #000000;
+}
+
+#page-footer {
+    background-color: #333333;
+    color: #cccccc;
+}
+
+/* #page-main {
+
+} */
+
+/* .page-section
+
+#about-me
+#projects
+#contact {} */
+
+#page-main h1, #page-main h2, #page-main h3, #page-main h4, #page-main h5, #page-main h6 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#img-headshot {
+    float: right;
+    margin: 10px;
+}
+
+.project-article img {
+    height: 256px;
+}
